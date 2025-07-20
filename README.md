@@ -30,6 +30,16 @@ The pipeline processes Amazon sales data hosted on GitHub and builds an end-to-e
 
 ---
 
+## 📊 Project Architecture
+
+The following diagram illustrates the complete flow of the Amazon Sales Data Pipeline using Medallion Architecture on Azure:
+
+![Project Architecture](images/project_architecture.png)
+
+> _This diagram outlines the end-to-end process — from ingestion using Azure Data Factory, through transformation in Azure Databricks across Bronze, Silver, and Gold layers, to final visualization in Power BI._
+
+---
+
 ## 🧰 Technology Stack
 
 - **Azure Data Factory (ADF)** – For orchestrating data movement from GitHub to ADLS.
